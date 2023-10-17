@@ -1,0 +1,23 @@
+{
+  "header": "I Electoral process and pluralism",
+  "questions": [
+    {
+      "title": "1. Are elections for the national legislature and head of government free?",
+      "description": "Consider whether elections are competitive in that electors are free to vote and are offered a range of choices.",
+      "options": {
+        "full": "Essentially unrestricted conditions for the presentation of candidates (for example, no bans on major parties).",
+        "medium": "There are some restrictions on the electoral process.",
+        "short": "A single-party system or major impediments exist (for example, bans on a major party or candidate)."
+      }
+    },
+    {
+      "title": "2. Are elections for the national legislature and head of government fair?",
+      "description": null,
+      "options": {
+        "full": "No major irregularities in the voting process.",
+        "medium": "Significant irregularities occur (intimidation, fraud), but do not significantly affect the overall outcome.",
+        "short": "Major irregularities occur and affect the outcome."
+      }
+    }
+  ]
+}
