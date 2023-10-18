@@ -11,31 +11,34 @@ const Answer = ({
     setValue(Number(e.target.value));
   };
   return (
-    <div className="flex flex-col pl-4 gap-4 justify-between">
-      <div>
+    <div className="flex flex-col px-4 h-full gap-4 justify-evenly">
+      <label className="flex text-lg">
         <input
           type="radio"
           value={1}
           checked={value === 1}
           onChange={handleChange}
+          className="mr-2"
         />
-        <label>{options.full}</label>
-      </div>
-      <label>
+        {options.full}
+      </label>
+      <label className="flex text-lg">
         <input
           type="radio"
           value={0.5}
           checked={value === 0.5}
           onChange={handleChange}
+          className="mr-2"
         />
         {options.medium}
       </label>
-      <label>
+      <label className="flex text-lg">
         <input
           type="radio"
           value={0}
           checked={value === 0}
           onChange={handleChange}
+          className="mr-2"
         />
         {options.short}
       </label>
